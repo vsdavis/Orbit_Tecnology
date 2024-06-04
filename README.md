@@ -27,7 +27,7 @@ To clone and run this project, you will need to have [Git](https://git-scm.com) 
    cd orbit
 
 3. Open the index.html file in your browser to view the website.
-   ```Directory Structure
+```
 orbit/
 ├── css/
 │   └── styles.css
@@ -35,8 +35,7 @@ orbit/
 │   └── typed.js
 ├── index.html
 └── README.md
-
-
+```
 Usage
 Open the index.html file in your browser to view the website. You will see text animations managed by the Typed.js library.
 
@@ -59,7 +58,7 @@ License
 This project is private and is not available for use or modification without express permission.
 
 Contact
-For more information, you can contact us at: your-email@example.com
+For more information, you can contact us at: vsdavid2005@gmail.com
 
 
 Orbit © [2024]. All rights reserved.
@@ -67,8 +66,8 @@ Orbit © [2024]. All rights reserved.
 
 ### Notes:
 
-1. **Replace** `https://github.com/your-username/orbit.git` with the actual link to your GitHub repository.
-2. **Adapt** the sections as needed to reflect the actual structure and functionality of your project.
-3. **Update** the contact information and any other specific details for your project.
+1. `https://github.com/vsdavis/Orbit_Tecnology/tree/main` GitHub repository.
+2. The website is currently incomplete, updates will be coming soon.
+3. **Attention** If you want to modify or use this code, please contact us.
 
 This `README.md` file provides a clear overview of your project, including the technologies used, installation and usage instructions, and information on how to contribute.
