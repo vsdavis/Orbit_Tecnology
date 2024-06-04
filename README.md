@@ -16,7 +16,7 @@ Orbit is a fictitious company offering innovative blockchain solutions. This web
 - **Typed.js**: Library for text animations
   <br>
   <br>
-  <img src="/orbit/img/"/>
+  <img src="/orbit/img/IMG-20240521-WA0073~2.jpg"/>
 
 ## Installation (example)
 
