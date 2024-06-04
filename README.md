@@ -27,6 +27,7 @@ To clone and run this project, you will need to have [Git](https://git-scm.com) 
    cd orbit
 
 3. Open the index.html file in your browser to view the website.
+   <br>
    orbit/
 ├── css/
 │   └── styles.css
@@ -58,7 +59,7 @@ Contact
 For more information, you can contact us at: your-email@example.com
 
 
-Orbit © [Year]. All rights reserved.
+Orbit © [2024]. All rights reserved.
 
 
 ### Notes:
