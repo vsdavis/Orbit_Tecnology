@@ -13,7 +13,7 @@ Orbit is a fictitious company offering innovative blockchain solutions. This web
 - **JavaScript**: Dynamic functionalities
 - **Typed.js**: Library for text animations
 
-## Installation
+## Installation (example)
 
 To clone and run this project, you will need to have [Git](https://git-scm.com) and a web browser installed.
 
