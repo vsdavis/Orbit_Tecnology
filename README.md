@@ -9,12 +9,12 @@ Orbit is a fictitious company offering innovative blockchain solutions. This web
 ## Technologies Used
 
 - **HTML**: Website structure <img alt="html15" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
-- **CSS**: Website styling
-- **JavaScript**: Dynamic functionalities
+- **CSS**: Website styling <img alt="css" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" />
+- **JavaScript**: Dynamic functionalities <img alt="JS" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 - **Typed.js**: Library for text animations
   <br>
   <br>
-  <img src="/orbit/img/celular.png"
+  <img src="/orbit/img/celular.png"/>
 
 ## Installation (example)
 
