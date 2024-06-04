@@ -1,6 +1,6 @@
 # Orbit - Blockchain Entrepreneurship Project
 
-Welcome to the repository for Orbit, a website developed for a fictitious company focused on blockchain. This project is part of the entrepreneurship course at Uninove University.
+Welcome to the repository for Orbit, a website developed for a fictitious company focused on blockchain. This project is part of the entrepreneurship course at Uninove Universidade Nove de Julho.
 
 ## Project Description
 
@@ -27,8 +27,8 @@ To clone and run this project, you will need to have [Git](https://git-scm.com) 
    cd orbit
 
 3. Open the index.html file in your browser to view the website.
-   <br>
-   orbit/
+   ```Directory Structure
+orbit/
 ├── css/
 │   └── styles.css
 ├── js/
@@ -36,18 +36,21 @@ To clone and run this project, you will need to have [Git](https://git-scm.com) 
 ├── index.html
 └── README.md
 
+
 Usage
 Open the index.html file in your browser to view the website. You will see text animations managed by the Typed.js library.
 
 Example Usage of Typed.js
 In the js/typed.js file, you will find the configuration for the text animation:
-
+```javascript
 var typed = new Typed('.element', {
   strings: ["Animated text 1", "Animated text 2", "Animated text 3"],
   typeSpeed: 50,
   backSpeed: 25,
   loop: true
 });
+
+```
 
 Contribution
 Contributions are welcome! Feel free to open an issue or submit a pull request.
