@@ -1,6 +1,6 @@
 # Orbit - Blockchain Entrepreneurship Project
 
-  <img src="/orbit/img/photo-removebg-preview.png"/>
+  <img src="/orbit/orbit/img/photo-removebg-preview.png"/>
 
 Welcome to the repository for Orbit, a website developed for a fictitious company focused on blockchain. This project is part of the entrepreneurship course at Uninove Universidade Nove de Julho.
 
@@ -16,7 +16,7 @@ Orbit is a fictitious company offering innovative blockchain solutions. This web
 - **Typed.js**: Library for text animations
   <br>
   <br>
-  <img src="/orbit/img/IMG-20240521-WA0073~2.jpg"/>
+  <img src="/orbit/orbit/img/IMG-20240521-WA0073~2.jpg"/>
 
 ## Installation (example)
 
