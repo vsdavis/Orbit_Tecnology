@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Orbit | Home</title>
+    <link rel="shortcut icon" href="img/photo-removebg-preview.png">
+    <!--não mexe no head estou usando bibliotecas JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <div class="logo">
+                <img src="img/photo-removebg-preview.png" alt="Logo Image">
+            </div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="work_us/empresa.html">EMPRESA</a></li>
+                <li><a href="trabalhe_page/trabalho.html">TRABALHE CONOSCO</a></li>
+                <li><a href="#services">SERVIÇOS</a></li>
+                <li><a href="#contact">FALE CONOSCO</a></li>
+            </ul>
+            <ul class="nav-auth">
+                <li><a class="login-button" href="/auth/index.html?form=login">Login</a></li>
+                <li><a class="join-button" href="/auth/index.html?form=signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="showcase">
+        <div class="container-header">
+            <div class="cell-header">
+                <img src="img/celular.png" alt="cllr"/>
+            </div>
+            <div class="content-header">
+                <div class="content-header-primary">
+                    <h1 class="name-header">ØRBIT</h1>
+                    <h1 class="typed-replaced"></h1>
+                </div>
+                <h1 class="title-header">Sua plataforma de confiança para criptomoedas</h1>
+                <p>A maneira mais popular do brasil de comprar, vender e trocar criptomoedas</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Serviços Section -->
+    <section id="services">
+        <div class="container-services">
+            <h2>Serviços</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Integração de Sistema</h3>
+                    <p>Ajuda as empresas a integrarem a tecnologia blockchain em seus sistemas, garantindo uma transição suave e eficiente para a nova infraestrutura tecnológica.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Consultoria em Blockchain</h3>
+                    <p>Oferecemos consultoria especializada para implementação e uso de blockchain em seus negócios.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Desenvolvimento de Aplicações Blockchain</h3>
+                    <p>A Orbit oferece serviços de desenvolvimento de aplicativos personalizados, incluindo contratos inteligentes, apps decentralizados (DApps) e soluções de blockchain sob medida para atender às necessidades de cada cliente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fale Conosco Section -->
+    <section id="contact">
+        <div class="container-contact">
+            <h2>Fale Conosco</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Orbit. Todos os direitos reservados.</p>
+                <ul class="social-links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

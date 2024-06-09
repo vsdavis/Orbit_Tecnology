@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/trabalhe_page/css/stylework.css">
+    <title>Orbit | Home</title>
+    <link rel="shortcut icon" href="img/photo-removebg-preview.png">
+    <!--não mexe no head estou usando bibliotecas JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-trabalhe">
+
+        <nav>
+            <div class="nav">
+                <div class="logo">
+                    <img src="img/photo-removebg-preview.png" alt="Logo Image">
+                </div>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/work_us/empresa.html">EMPRESA</a></li>
+                    <li><a href="trabalho.html">TRABALHE CONOSCO</a></li>
+                    <li><a href="/index.html#services">SERVIÇOS</a></li>
+                    <li><a href="/index.html#contact">FALE CONOSCO</a></li>
+                </ul>
+                <ul class="nav-auth">
+                    <li><a class="login-button" href="/auth/index.html?form=login">Login</a></li>
+                    <li><a class="join-button" href="/auth/index.html?form=signup">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="trabalhe">
+            <header>
+                <h1></h1>
+            </header>
+            <main>
+
+                <h2>Dados pessoais</h2>
+                <p class="subtitle">Preencha aqui o formulário para fazer parte da nossa equipe.</p>
+                <form>
+                    <div class="input-group">
+                        <div class="form-group">
+                            <label for="nome-completo">Nome Completo *</label>
+                            <input type="text" id="nome-completo" name="nome-completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cpf">CPF *</label>
+                            <input type="text" placeholder="Somente números" id="cpf" name="cpf" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="form-group">
+                            <label for="data-nascimento">Data de Nascimento *</label>
+                            <input type="date" id="data-nascimento" name="data-nascimento" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cidade">Cidade *</label>
+                            <input type="text" id="cidade" name="cidade" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="form-group">
+                            <label for="telefone">Telefone *</label>
+                            <input type="text" id="telefone" name="telefone" placeholder="(DDD)" required>
+                        </div>
+                        <div class="form-group small-input">
+                            <label for="estado-civil">Estado Civil *</label>
+                            <div class="radio-group">
+                                <label><input type="checkbox" name="estado-civil" value="solteiro" required> Solteiro
+                                    (a)</label>
+                                <label><input type="checkbox" name="estado-civil" value="casado" required> Casado
+                                    (a)</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="form-group half-width">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="carteira-habilitacao">Carteira de Habilitação *</label>
+                            <div class="radio-group">
+                                <label><input type="checkbox" name="carteira-habilitacao" value="sim" required>
+                                    Sim</label>
+                                <label><input type="checkbox" name="carteira-habilitacao" value="nao" required>
+                                    Não</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="form-group half-width">
+                            <label for="rede-social">Rede social</label>
+                            <input type="text" id="rede-social" name="rede-social" placeholder="Instagram @orbit">
+                        </div>
+                        <div class="form-group"></div>
+                    </div>
+
+
+                    <div class="input-group">
+                        <div class="form-group">
+                            <label>Escolaridade *</label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="escolaridade" value="fundamental-incompleto"> Ensino
+                                    Fundamental Incompleto</label>
+                                <label><input type="checkbox" name="escolaridade" value="fundamental-completo"> Ensino
+                                    Fundamental Completo</label>
+                                <label><input type="checkbox" name="escolaridade" value="medio-incompleto"> Ensino Médio
+                                    Incompleto</label>
+                                <label><input type="checkbox" name="escolaridade" value="medio-completo"> Ensino Médio
+                                    Completo</label>
+                                <label><input type="checkbox" name="escolaridade" value="superior-incompleto"> Superior
+                                    Incompleto</label>
+                                <label><input type="checkbox" name="escolaridade" value="superior-completo"> Superior
+                                    Completo</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="formacao-academica">Formação acadêmica</label>
+                            <textarea id="formacao-academica" placeholder="Descreva mais sobre sua formação acadêmica"
+                                name="formacao-academica"></textarea>
+                        </div>
+                    </div>
+
+                    <h2>Experiências profissionais</h2>
+                    <p class="subtitle">Abaixo informe suas últimas duas experiências profissionais:</p>
+
+                    <div class="form-group">
+                        <label for="ultima-experiencia">Última experiência profissional *</label>
+                        <p class="info-experience">Preencha com os dados da Empresa / Período de Trabalho (início/fim) /
+                            Função Desempenhada / Cidade.</p>
+                        <textarea id="ultima-experiencia" name="ultima-experiencia" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="penultima-experiencia">Penúltima experiência profissional</label>
+                        <p class="info-experience">Preencha com os dados da Empresa / Período de Trabalho (início/fim) /
+                            Função Desempenhada / Cidade.</p>
+                        <textarea id="penultima-experiencia" name="penultima-experiencia"></textarea>
+                    </div>
+
+                    <h2>Expectativas profissionais</h2>
+                    <p class="subtitle">Abaixo informe suas expectativas e a função desejada, para entendermos melhor
+                        você.</p>
+                    <div class="input-group">
+
+                        <div class="form-group">
+                            <label>Área de interesse no setor administrativo:</label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="area-interesse-administrativo"
+                                        value="administrativo">
+                                    Administrativo / Financeiro</label>
+                                <label><input type="checkbox" name="area-interesse-administrativo" value="comercial">
+                                    Comercial</label>
+                                <label><input type="checkbox" name="area-interesse-administrativo" value="compras">
+                                    Compras</label>
+                                <label><input type="checkbox" name="area-interesse-administrativo" value="engenharia">
+                                    Engenharia / Projetos</label>
+                                <label><input type="checkbox" name="area-interesse-administrativo" value="marketing">
+                                    Marketing
+                                    / Publicidade</label>
+                                <label><input type="checkbox" name="area-interesse-administrativo" value="ppcp">
+                                    Planejamento de
+                                    Produção (PPCP)</label>
+                                <label><input type="checkbox" name="area-interesse-administrativo" value="rh"> Recursos
+                                    Humanos
+                                    (RH)</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Área de interesse no setor produtivo:</label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="area-interesse-produtivo" value="almoxarifado">
+                                    Desenvolvimento / T.I</label>
+                                <label><input type="checkbox" name="area-interesse-produtivo" value="engenharia-eletrica">
+                                    Engenharia Elétrica</label>
+                                <label><input type="checkbox" name="area-interesse-produtivo" value="instalacao-externa">
+                                    Instalação e Montagem Externa</label>
+                                <label><input type="checkbox" name="area-interesse-produtivo" value="instalacao-interna">
+                                    Tec. Informatica / T.I</label>
+                                <label><input type="checkbox" name="area-interesse-produtivo" value="pintura">
+                                    Auxiliar</label>
+                                <label><input type="checkbox" name="area-interesse-produtivo" value="servicos-gerais">
+                                    Serviços
+                                    Gerais</label>
+                                <label><input type="checkbox" name="area-interesse-produtivo" value="soldagem">
+                                    Telemarkenting</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="form-group">
+                            <label for="pretensao-salarial">Pretensão salarial *</label>
+                            <input type="text" id="pretensao-salarial" name="pretensao-salarial" placeholder="R$"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label>Como conheceu a nossa empresa? *</label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="como-conheceu" value="google" required> Pesquisas no
+                                    Google</label>
+                                <label><input type="checkbox" name="como-conheceu" value="indicacao" required>
+                                    Indicação</label>
+                                <label><input type="checkbox" name="como-conheceu" value="redes-sociais" required> Redes
+                                    sociais</label>
+                                <label><input type="checkbox" name="como-conheceu" value="canais-de-vagas" required>
+                                    Canais de
+                                    vagas</label>
+                                <label><input type="checkbox" name="como-conheceu" value="evento" required>
+                                    Evento</label>
+                                <label><input type="checkbox" name="como-conheceu" value="outro" required> Outro</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name="termos-condicoes" required> Aceito os termos e condições e eu
+                            concordo em receber comunicações.
+                        </label>
+                    </div>
+                    <button type="submit" class="submit-button">ENVIAR</button>
+                </form>
+            </main>
+        </div>
+
+</body>
+
+</html>
+</div>
+<div class="image-orbit">
+    <img src="/trabalhe_page/img/orbit_image.png" />
+</div>
+</div>
+<script src="/main.js"></script>
+
+</body>
+
+</html>
